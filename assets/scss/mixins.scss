@@ -1,0 +1,41 @@
+@import "variables";
+
+
+@mixin header_bacground {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@mixin section_bacground {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@mixin btns_style {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+@mixin section_title {
+	margin: 0;
+	padding-top: 75px;
+	font-family: Roboto;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+@mixin btns_hover {
+	background-color: #000000;
+	color: #fcff19;
+}
+@mixin input_style {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 1px solid #dadada;
+	background-color: #ffffff;
+	text-indent: 10px;
+	line-height: 40px;
+}
